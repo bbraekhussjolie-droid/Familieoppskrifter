@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Martel;
+    src: url(Martel-SemiBold.ttf);
+}
+
 /*LENKER*/
 nav a:hover{
     text-decoration: underline;
@@ -19,6 +24,7 @@ body{
     padding: 0px;
     background-color: aquamarine;
     color: black;
+    font-family: Martel;
 }
 
 /*TOPPBUNN*/
@@ -72,10 +78,29 @@ ul{
 /*PASSORDFELT*/
 
 #passordfelt li{
-    display: block;
+    display: inline;
 }
 
+#passordfelt{
+    text-align: center;
+}
 
+#passordfelt input{
+    width: 30%;
+    height: 34px;
+    font-size: 21px;
+    font-family: Martel;
+}
+
+#passordfelt button{
+    height: 40px;
+    font-size: 21px;
+    font-family: Martel;
+}
+
+#passordfelt label{
+    font-size: 15px;
+}
 
 /*ROT*/
 .logo{
