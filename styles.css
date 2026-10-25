@@ -6,11 +6,11 @@ nav a{
     color: aliceblue;
     text-decoration: none;
 }
-div a{
+#passordfelt a{
     color: black;
     text-decoration: underline;
 }
-div a:hover{
+#passordfelt a:hover{
     text-decoration: none;
 }
 /*BODY*/
@@ -21,26 +21,16 @@ body{
     color: black;
 }
 
-ul{
-    padding: 0px;
-    margin: 0px;
-    list-style-type: none;
-}
-
-li{
-    display: inline-block;
-}
-
-nav li{
-    margin: 20px 30px 0 0;
-    height: 41px;
-}
-
+/*TOPPBUNN*/
 .toppbunn{
     background:midnightblue;
     color: white;
     text-align: center;
     width: 100%;
+}
+
+footer{
+    height: 25;
 }
 
 header{
@@ -50,10 +40,6 @@ header{
     background-size:100%;
     background-repeat: no-repeat;
     background-position:top;
-}
-
-footer{
-    height: 25;
 }
 
 .logo a{
@@ -70,6 +56,26 @@ footer{
     top: -14px;
     text-indent:-99999999px;
 }
+
+nav li{
+    margin: 20px 30px 0 0;
+    height: 41px;
+    display: inline-block;
+}
+
+ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+/*PASSORDFELT*/
+
+#passordfelt li{
+    display: block;
+}
+
+
 
 /*ROT*/
 .logo{
