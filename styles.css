@@ -14,6 +14,7 @@ nav a{
 #passordfelt a{
     color: black;
     text-decoration: underline;
+    font-size: 12px;
 }
 #passordfelt a:hover{
     text-decoration: none;
@@ -36,16 +37,21 @@ body{
 }
 
 footer{
+    margin-top: 15px;
     height: 25;
 }
 
 header{
-    height: 500px;
+    height: 200px;
     background: midnightblue;
     background-image: url("images/bakt potet vesper.jpg");
     background-size:100%;
     background-repeat: no-repeat;
     background-position:top;
+}
+
+.forside header{
+    height: 500px;
 }
 
 .logo a{
@@ -76,14 +82,13 @@ ul{
 }
 
 /*PASSORDFELT*/
+#passordfelt{
+    text-align: center;
+    padding: 200px 0px 200px 0;
+}
 
 #passordfelt li{
     display: inline;
-}
-
-#passordfelt{
-    text-align: center;
-    padding: 500px;
 }
 
 #passordfelt input{
@@ -100,7 +105,48 @@ ul{
 }
 
 #passordfelt label{
-    font-size: 17px;
+    font-size: 20px;
+}
+
+/*OPPSKRIFTSIDE*/
+.oppskriftside p{
+    text-align: left;
+    padding: 0px 15px 0px 15px;
+    margin: 0px;
+    width: 80%;
+}
+
+.mellomoverskrift{
+    padding: 15px 15px 0 15px;
+    margin: 0px;
+}
+
+.toppdel{
+    text-align: center;
+}
+
+.toppdel img{
+    height: 350px;
+}
+
+.toppdel p{
+    text-align: center;
+    width: 75%;
+    padding: 0 0 50px 12.5%;
+
+}
+
+.ingrediensliste{
+    padding: 0 0px 0 15px;
+}
+
+.ingrediensliste h2{
+    margin: 0 0 0 0;
+}
+
+.ingrediensliste ul{
+    list-style-type: disc;
+    padding: 0 0 0 20px;
 }
 
 /*ROT*/
