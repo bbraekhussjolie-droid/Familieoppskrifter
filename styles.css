@@ -83,6 +83,7 @@ ul{
 
 #passordfelt{
     text-align: center;
+    padding: 500px;
 }
 
 #passordfelt input{
@@ -99,7 +100,7 @@ ul{
 }
 
 #passordfelt label{
-    font-size: 15px;
+    font-size: 17px;
 }
 
 /*ROT*/
