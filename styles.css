@@ -150,7 +150,53 @@ ul{
 }
 
 /*OVERSIKTSIDE*/
+.oppskriftliste{
+    /*text-align: center;*/
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.oppskriftliste li{
+    /*text-align: center;*/
+    width: 32%;
+    /*margin: auto;*/
+    margin: calc(4%/6);
+}
+
+.oppskriftliste ul{
+    background-color: rgb(255, 252, 236);
+}
+
+.oppskriftliste a{
+    /*text-align: center;*/
+    text-decoration: none;
+}
+
+.oppskriftliste a:hover{
+    text-decoration: underline;
+}
+
+.oppskriftliste{
+    /*background-color: black;*/
+    padding: calc(4%/6);
+}
+
+.oppskriftUl li{
+    width: 100%;
+    text-align: center; 
+    margin: 0px;
+    padding: 0px;
+}
+
+.oppskriftUl h3{
+    margin: 0px;
+    padding: 0px;
+}
+
+.oppskriftUl p{
+    padding: 0px;
+    margin: 0px;
+}
 
 /*ROT*/
 .logo{
