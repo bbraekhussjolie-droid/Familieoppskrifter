@@ -29,6 +29,13 @@ body{
 }
 
 /*TOPPBUNN*/
+
+h2{
+    margin: 0 0 15px 0;
+    padding: 0 0 0px 0;
+    font-size: 27px;
+}
+
 .toppbunn{
     background:midnightblue;
     color: white;
@@ -37,7 +44,7 @@ body{
 }
 
 footer{
-    margin-top: 15px;
+    margin-top: 20px;
     height: 25;
 }
 
@@ -69,6 +76,15 @@ header{
     text-indent:-99999999px;
 }
 
+.toppbunn a{
+    text-decoration: none;
+}
+
+.toppbunn a:hover{
+    color: turquoise;
+    text-decoration: none;
+}
+
 nav li{
     margin: 20px 30px 0 0;
     height: 41px;
@@ -91,14 +107,14 @@ ul{
     display: inline;
 }
 
-#passordfelt input{
+#passordfelt #tekstfelt{
     width: 30%;
     height: 34px;
     font-size: 21px;
     font-family: Martel;
 }
 
-#passordfelt button{
+#passordfelt #button{
     height: 40px;
     font-size: 21px;
     font-family: Martel;
@@ -163,13 +179,10 @@ ul{
     margin: calc(4%/6);
 }
 
-.oppskriftliste ul{
-    background-color: rgb(255, 252, 236);
-}
-
 .oppskriftliste a{
     /*text-align: center;*/
     text-decoration: none;
+    color: black;
 }
 
 .oppskriftliste a:hover{
@@ -181,6 +194,11 @@ ul{
     padding: calc(4%/6);
 }
 
+.oppskriftUl{
+    /*background-color: rgb(255, 252, 236);*/
+    padding: 4px 30px 10px 30px; 
+}
+
 .oppskriftUl li{
     width: 100%;
     text-align: center; 
@@ -189,14 +207,26 @@ ul{
 }
 
 .oppskriftUl h3{
+    font-size: 25px;
     margin: 0px;
     padding: 0px;
 }
 
+.oppskriftUl img{
+    height: 190px;
+}
+
 .oppskriftUl p{
+    line-height: 15px;
+    font-size: 13px;
     padding: 0px;
     margin: 0px;
 }
+
+/*.oppskriftside footer{
+    padding: 0;
+    margin: 0;
+}*/
 
 /*ROT*/
 .logo{
